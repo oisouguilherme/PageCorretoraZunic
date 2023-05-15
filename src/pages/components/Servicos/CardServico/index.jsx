@@ -1,5 +1,5 @@
 import Image from "next/image";
-import imagemTeste from '../../../../images/logo.png'
+import imagemTeste from '../../../../images/imagemteste.avif'
 
 export function CardServico(){
   return(
