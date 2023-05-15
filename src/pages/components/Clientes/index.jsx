@@ -15,7 +15,7 @@ export function Clientes() {
           <Image src={imagemTeste} alt="Teste"/>
           <div className="p-2 space-y-1">
             <p className="text-2xl">
-              "Queria dar os parabéns a toda equipe Trader Brasil .. DEZ !"
+            &quot;Queria dar os parabéns a toda equipe Trader Brasil .. DEZ !&quot;
             </p>
             <p className="text-xl italic font-thin">-Carlos Arteman</p>
           </div>
@@ -24,7 +24,7 @@ export function Clientes() {
           <Image src={imagemTeste} alt="Teste" />
           <div className="p-2 space-y-1">
             <p className="text-2xl">
-              "Queria dar os parabéns a toda equipe Trader Brasil .. DEZ !"
+            &quot;Queria dar os parabéns a toda equipe Trader Brasil .. DEZ !&quot;
             </p>
             <p className="text-xl italic font-thin">-Carlos Arteman</p>
           </div>
@@ -33,7 +33,7 @@ export function Clientes() {
           <Image src={imagemTeste} alt="Teste" />
           <div className="p-2 space-y-1">
             <p className="text-2xl">
-            “Já era tempo de alguém colocar a sabedoria do Mercado mundial no melhor LIVRO de análise gráfica / técnica em português, e meu amigo Flávio Lemos o fez muito bem!"
+            &quot;Já era tempo de alguém colocar a sabedoria do Mercado mundial no melhor LIVRO de análise gráfica / técnica em português, e meu amigo Flávio Lemos o fez muito bem!&quot;
             </p>
             <p className="text-xl italic font-thin">-Carlos Arteman</p>
           </div>
