@@ -12,7 +12,7 @@ export function Clientes() {
         </div>
       <div className="flex gap-8 justify-center flex-wrap">
         <div className="md:w-96">
-          <Image src={imagemTeste} alt="" />
+          <Image src={imagemTeste} />
           <div className="p-2 space-y-1">
             <p className="text-2xl">
               "Queria dar os parabéns a toda equipe Trader Brasil .. DEZ !"
@@ -21,7 +21,7 @@ export function Clientes() {
           </div>
         </div>
         <div className="md:w-96">
-          <Image src={imagemTeste} alt="" />
+          <Image src={imagemTeste} />
           <div className="p-2 space-y-1">
             <p className="text-2xl">
               "Queria dar os parabéns a toda equipe Trader Brasil .. DEZ !"
@@ -30,7 +30,7 @@ export function Clientes() {
           </div>
         </div>
         <div className="md:w-96">
-          <Image src={imagemTeste} alt="" />
+          <Image src={imagemTeste} />
           <div className="p-2 space-y-1">
             <p className="text-2xl">
             “Já era tempo de alguém colocar a sabedoria do Mercado mundial no melhor LIVRO de análise gráfica / técnica em português, e meu amigo Flávio Lemos o fez muito bem!"
