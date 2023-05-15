@@ -1,7 +1,7 @@
 import Image from "next/image";
 import imagemTeste from "../../../images/imagemteste.avif";
 
-export function Clientes() {
+export default function Clientes() {
   return (
     <div className="bg-white px-8 py-16 space-y-10 flex flex-col items-center">
       <div className="space-y-3 flex flex-col items-start">

@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 
-export function ButtonCima(){
+export default function ButtonCima(){
   return (
     <div className="fixed bottom-6 right-6 bg-slate-50 rounded-full p-1 cursor-pointer">
       <Link

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import imagemTeste from '../../../../images/imagemteste.avif'
 
-export function CardServico(){
+export default function CardServico(){
   return(
     <div className="bg-slate-50 w-96 mb-16">
       <Image src={imagemTeste} alt=""/>

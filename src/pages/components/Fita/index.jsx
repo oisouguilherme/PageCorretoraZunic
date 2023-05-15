@@ -1,4 +1,4 @@
-export function Fita(){
+export default function Fita(){
   return(
     <div className="bg-vermelho flex justify-center items-center py-12 flex-wrap gap-12 text-white">
       <div className="font-bold text-center space-y-3 w-52">

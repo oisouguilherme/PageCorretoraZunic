@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { Link} from 'react-scroll'
 import logo from '../../../images/logo.png'
-export function Header (){
+export default function Header (){
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {

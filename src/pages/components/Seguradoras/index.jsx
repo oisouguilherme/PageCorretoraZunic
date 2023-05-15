@@ -1,4 +1,4 @@
-export function Seguradoras(){
+export default function Seguradoras(){
   return(
     <section id="Seguradoras" className="bg-slate-50 flex flex-col items-center py-16 space-y-16 px-8">
       <div className="space-y-3 flex flex-col items-start">

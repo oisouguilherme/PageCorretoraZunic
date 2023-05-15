@@ -1,6 +1,6 @@
-import { CardServico } from "./CardServico";
+import  CardServico from "./CardServico";
 
-export function Servicos(){
+export default function Servicos(){
   return(
     <section id="Servicos" className="bg-white md:px-8">
       <div  className="flex flex-col items-center py-16 gap-2">

@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 
-export function Main() {
+export default function Main() {
   return (
     <section
       id="Home"
