@@ -1,6 +1,7 @@
+import Image from 'next/image';
 import { useState } from 'react';
 import { Link} from 'react-scroll'
-
+import logo from '../../../images/logo.png'
 export function Header (){
   const [isOpen, setIsOpen] = useState(false);
 
@@ -8,9 +9,16 @@ export function Header (){
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
   return (
-    <section id='Nav' className="w-full flex justify-between z-50 bg-gray-200 py-8 lg:px-32 md:px-12 px-8">
-      <div className="text-xl font-bold">Logo</div>
+    <section id='Nav' className="w-full flex justify-between items-center z-50 bg-gray-200 py-8 lg:px-24 sm:px-12 px-2">
+      <div className="cursor-pointer w-52 md:w-72 xl:w-80">
+        <Image 
+        src={logo} 
+        alt='Logo Zunic Corretora de seguros'/>
+      </div>
       <div className="lg:hidden">
         <div
           className={`fixed top-0 left-0 right-0 bottom-0 bg-black opacity-50 ${
@@ -24,7 +32,7 @@ export function Header (){
           }`}
         >
           <ul className="p-4 space-y-4">
-            <li className='cursor-pointer hover:text-red-500 duration-300'>
+            <li className='cursor-pointer hover:text-vermelho duration-300'>
               <Link
                 activeClass="active"
                 to="Home"
@@ -32,11 +40,12 @@ export function Header (){
                 smooth={true}
                 offset={50}
                 duration={500}
+                onClick={closeMenu}
               >
                 Home
               </Link>
             </li>
-            <li className='cursor-pointer hover:text-red-500 duration-300'>
+            <li className='cursor-pointer hover:text-vermelho duration-300'>
               <Link
                 activeClass="active"
                 to="Servicos"
@@ -44,11 +53,12 @@ export function Header (){
                 smooth={true}
                 offset={50}
                 duration={500}
+                onClick={closeMenu}
               >
                 Serviços
               </Link>
             </li>
-            <li className='cursor-pointer hover:text-red-500 duration-300'>
+            <li className='cursor-pointer hover:text-vermelho duration-300'>
               <Link
                 activeClass="active"
                 to="QuemSomos"
@@ -56,11 +66,12 @@ export function Header (){
                 smooth={true}
                 offset={50}
                 duration={500}
+                onClick={closeMenu}
               >
                 Quem Somos
               </Link>
             </li>
-            <li className='cursor-pointer hover:text-red-500 duration-300'>
+            <li className='cursor-pointer hover:text-vermelho duration-300'>
               <Link
                 activeClass="active"
                 to="Seguradoras"
@@ -68,11 +79,12 @@ export function Header (){
                 smooth={true}
                 offset={50}
                 duration={500}
+                onClick={closeMenu}
               >
                 Seguradoras
               </Link>
             </li>
-            <li className='cursor-pointer hover:text-red-500 duration-300'>
+            <li className='cursor-pointer hover:text-vermelho duration-300'>
               <Link
                 activeClass="active"
                 to="Contatos"
@@ -80,6 +92,7 @@ export function Header (){
                 smooth={true}
                 offset={50}
                 duration={500}
+                onClick={closeMenu}
               >
                 Contatos
               </Link>
@@ -87,9 +100,9 @@ export function Header (){
           </ul>
         </div>
       </div>
-      <div className="hidden md:block">
-        <ul className="flex space-x-6 text-black font-medium text-xl">
-          <li className='cursor-pointer hover:text-red-500 duration-300'>
+      <div className="hidden lg:block">
+        <ul className="flex space-x-8 text-center items-center text-black font-bold text-xl xl:text-2xl">
+          <li className='cursor-pointer hover:text-vermelho duration-300'>
               <Link
                 activeClass="active"
                 to="Home"
@@ -101,7 +114,7 @@ export function Header (){
                 Home
               </Link>
             </li>
-            <li className='cursor-pointer hover:text-red-500 duration-300'>
+            <li className='cursor-pointer hover:text-vermelho duration-300'>
               <Link
                 activeClass="active"
                 to="Servicos"
@@ -113,7 +126,7 @@ export function Header (){
                 Serviços
               </Link>
             </li>
-            <li className='cursor-pointer hover:text-red-500 duration-300'>
+            <li className='cursor-pointer hover:text-vermelho duration-300'>
               <Link
                 activeClass="active"
                 to="QuemSomos"
@@ -125,7 +138,7 @@ export function Header (){
                 Quem Somos
               </Link>
             </li>
-            <li className='cursor-pointer hover:text-red-500 duration-300'>
+            <li className='cursor-pointer hover:text-vermelho duration-300'>
               <Link
                 activeClass="active"
                 to="Seguradoras"
@@ -137,7 +150,7 @@ export function Header (){
                 Seguradoras
               </Link>
             </li>
-            <li className='cursor-pointer hover:text-red-500 duration-300'>
+            <li className='cursor-pointer hover:text-vermelho duration-300'>
               <Link
                 activeClass="active"
                 to="Contatos"
@@ -151,7 +164,7 @@ export function Header (){
             </li>
         </ul>
       </div>
-      <div className="hamburger md:hidden" onClick={toggleMenu}>
+      <div className="hamburger lg:hidden" onClick={toggleMenu}>
         <span className="block w-6 h-1 bg-black mb-1"></span>
         <span className="block w-6 h-1 bg-black mb-1"></span>
         <span className="block w-6 h-1 bg-black"></span>

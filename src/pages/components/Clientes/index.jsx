@@ -3,10 +3,15 @@ import imagemTeste from "../../../images/imagemteste.avif";
 
 export function Clientes() {
   return (
-    <div className="bg-white px-8 py-16 space-y-10">
-      <h2 className="text-center md:text-5xl text-4xl font-bold">CLIENTES</h2>
+    <div className="bg-white px-8 py-16 space-y-10 flex flex-col items-center">
+      <div className="space-y-3 flex flex-col items-start">
+          <h2 className="text-center text-cinza text-5xl font-bold ">
+            CLIENTES
+          </h2>
+          <div className="w-24 h-2 bg-vermelho"></div>
+        </div>
       <div className="flex gap-8 justify-center flex-wrap">
-        <div className="w-96">
+        <div className="md:w-96">
           <Image src={imagemTeste} alt="" />
           <div className="p-2 space-y-1">
             <p className="text-2xl">
@@ -15,7 +20,7 @@ export function Clientes() {
             <p className="text-xl italic font-thin">-Carlos Arteman</p>
           </div>
         </div>
-        <div className="w-96">
+        <div className="md:w-96">
           <Image src={imagemTeste} alt="" />
           <div className="p-2 space-y-1">
             <p className="text-2xl">
@@ -24,7 +29,7 @@ export function Clientes() {
             <p className="text-xl italic font-thin">-Carlos Arteman</p>
           </div>
         </div>
-        <div className="w-96">
+        <div className="md:w-96">
           <Image src={imagemTeste} alt="" />
           <div className="p-2 space-y-1">
             <p className="text-2xl">
