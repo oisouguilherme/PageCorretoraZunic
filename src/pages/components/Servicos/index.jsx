@@ -1,3 +1,4 @@
+import Title from "../Utils/Title";
 import  CardServico from "./CardServico";
 
 export default function Servicos(){
@@ -5,7 +6,7 @@ export default function Servicos(){
     <section id="Servicos" className="bg-white md:px-8">
       <div  className="flex flex-col items-center py-16 gap-2">
         <div className="space-y-3">
-          <h2 className="text-center text-cinza text-5xl font-bold ">SERVIÇOS</h2>
+          <Title title={"SERVIÇOS"} />
           <div className="w-24 h-2 bg-vermelho"></div>
         </div>
       </div>

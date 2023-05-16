@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
-import { Link} from 'react-scroll'
+import { Link as LinkScroll} from 'react-scroll'
+import Link  from 'next/link'
 import logo from '../../../images/logo.png'
 export default function Header (){
   const [isOpen, setIsOpen] = useState(false);
@@ -13,11 +14,14 @@ export default function Header (){
     setIsOpen(false);
   };
   return (
-    <section id='Nav' className="w-full flex justify-between items-center z-50 bg-gray-200 py-8 lg:px-24 sm:px-12 px-2">
+    <section
+      id="Nav"
+      className="w-full flex justify-between items-center z-50 bg-gray-200 py-8 lg:px-24 sm:px-12 px-2"
+    >
       <div className="cursor-pointer w-52 md:w-72 xl:w-80">
-        <Image 
-        src={logo} 
-        alt='Logo Zunic Corretora de seguros'/>
+        <Link href="/">
+          <Image src={logo} alt="Logo Zunic Corretora de seguros" />
+        </Link>
       </div>
       <div className="lg:hidden">
         <div
@@ -32,21 +36,11 @@ export default function Header (){
           }`}
         >
           <ul className="p-4 space-y-4">
-            <li className='cursor-pointer hover:text-vermelho duration-300'>
-              <Link
-                activeClass="active"
-                to="Home"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-                onClick={closeMenu}
-              >
-                Home
-              </Link>
+            <li className="cursor-pointer hover:text-vermelho duration-300">
+              <Link href="/">Home</Link>
             </li>
-            <li className='cursor-pointer hover:text-vermelho duration-300'>
-              <Link
+            <li className="cursor-pointer hover:text-vermelho duration-300">
+              <LinkScroll
                 activeClass="active"
                 to="Servicos"
                 spy={true}
@@ -56,10 +50,10 @@ export default function Header (){
                 onClick={closeMenu}
               >
                 Serviços
-              </Link>
+              </LinkScroll>
             </li>
-            <li className='cursor-pointer hover:text-vermelho duration-300'>
-              <Link
+            <li className="cursor-pointer hover:text-vermelho duration-300">
+              <LinkScroll
                 activeClass="active"
                 to="QuemSomos"
                 spy={true}
@@ -69,10 +63,10 @@ export default function Header (){
                 onClick={closeMenu}
               >
                 Quem Somos
-              </Link>
+              </LinkScroll>
             </li>
-            <li className='cursor-pointer hover:text-vermelho duration-300'>
-              <Link
+            <li className="cursor-pointer hover:text-vermelho duration-300">
+              <LinkScroll
                 activeClass="active"
                 to="Seguradoras"
                 spy={true}
@@ -82,10 +76,10 @@ export default function Header (){
                 onClick={closeMenu}
               >
                 Seguradoras
-              </Link>
+              </LinkScroll>
             </li>
-            <li className='cursor-pointer hover:text-vermelho duration-300'>
-              <Link
+            <li className="cursor-pointer hover:text-vermelho duration-300">
+              <LinkScroll
                 activeClass="active"
                 to="Contatos"
                 spy={true}
@@ -95,73 +89,64 @@ export default function Header (){
                 onClick={closeMenu}
               >
                 Contatos
-              </Link>
+              </LinkScroll>
             </li>
           </ul>
         </div>
       </div>
       <div className="hidden lg:block">
         <ul className="flex space-x-8 text-center items-center text-black font-bold text-xl xl:text-2xl">
-          <li className='cursor-pointer hover:text-vermelho duration-300'>
-              <Link
-                activeClass="active"
-                to="Home"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Home
-              </Link>
-            </li>
-            <li className='cursor-pointer hover:text-vermelho duration-300'>
-              <Link
-                activeClass="active"
-                to="Servicos"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Serviços
-              </Link>
-            </li>
-            <li className='cursor-pointer hover:text-vermelho duration-300'>
-              <Link
-                activeClass="active"
-                to="QuemSomos"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Quem Somos
-              </Link>
-            </li>
-            <li className='cursor-pointer hover:text-vermelho duration-300'>
-              <Link
-                activeClass="active"
-                to="Seguradoras"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Seguradoras
-              </Link>
-            </li>
-            <li className='cursor-pointer hover:text-vermelho duration-300'>
-              <Link
-                activeClass="active"
-                to="Contatos"
-                spy={true}
-                smooth={true}
-                offset={50}
-                duration={500}
-              >
-                Contatos
-              </Link>
-            </li>
+          <li className="cursor-pointer hover:text-vermelho duration-300">
+            <Link href="/">Home</Link>
+          </li>
+          <li className="cursor-pointer hover:text-vermelho duration-300">
+            <LinkScroll
+              activeClass="active"
+              to="Servicos"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Serviços
+            </LinkScroll>
+          </li>
+          <li className="cursor-pointer hover:text-vermelho duration-300">
+            <LinkScroll
+              activeClass="active"
+              to="QuemSomos"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Quem Somos
+            </LinkScroll>
+          </li>
+          <li className="cursor-pointer hover:text-vermelho duration-300">
+            <LinkScroll
+              activeClass="active"
+              to="Seguradoras"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Seguradoras
+            </LinkScroll>
+          </li>
+          <li className="cursor-pointer hover:text-vermelho duration-300">
+            <LinkScroll
+              activeClass="active"
+              to="Contatos"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              Contatos
+            </LinkScroll>
+          </li>
         </ul>
       </div>
       <div className="hamburger lg:hidden" onClick={toggleMenu}>

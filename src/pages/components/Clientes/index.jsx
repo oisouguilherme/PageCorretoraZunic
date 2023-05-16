@@ -1,14 +1,13 @@
 import Image from "next/image";
 import imagemTeste from "../../../images/imagemteste.avif";
+import Title from "../Utils/Title";
 
 export default function Clientes() {
   return (
     <div className="bg-white px-8 py-16 space-y-10 flex flex-col items-center">
       <div className="space-y-3 flex flex-col items-start">
-          <h2 className="text-center text-cinza text-5xl font-bold ">
-            CLIENTES
-          </h2>
-          <div className="w-24 h-2 bg-vermelho"></div>
+        <Title title={"CLIENTES"} />
+        <div className="w-24 h-2 bg-vermelho"></div>
         </div>
       <div className="flex gap-8 justify-center flex-wrap">
         <div className="md:w-96">

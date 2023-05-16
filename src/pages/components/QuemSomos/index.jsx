@@ -1,14 +1,13 @@
 import Image from "next/image";
 import imagemTeste from "../../../images/QuemSomos.jpg";
+import Title from "../Utils/Title";
 
 export default function QuemSomos() {
   return (
     <section id="QuemSomos" className="bg-slate-50 grid md:grid-cols-2 md:max-h-[800px] overflow-hidden">
       <div className="py-16 px-4 md:px-0 space-y-8 md:w-96 mx-auto">
         <div className="space-y-3 flex flex-col items-start">
-          <h2 className="text-center text-cinza text-5xl font-bold ">
-            QUEM SOMOS
-          </h2>
+        <Title title={"QUEM SOMOS"} />
           <div className="w-24 h-2 bg-vermelho"></div>
         </div>
         <p className="text-xl font-thin">
