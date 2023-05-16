@@ -1,6 +1,6 @@
 import ButtonCima from "../components/ButtonCima";
 import Clientes from "../components/Clientes";
-import { Contato } from "../components/Contato";
+import Contato from "../components/Contato";
 import Fita from "../components/Fita";
 import Footer from "../components/Footer";
 import Header from "../components/Header";

@@ -1,7 +1,7 @@
 import Title from "../Utils/Title";
 import InformacoesContato from "./InformacoesContato";
 
-export function Contato(){
+export default function Contato(){
   return (
     <div className="pb-16">
       <div className="flex flex-col items-center py-16 gap-2">
