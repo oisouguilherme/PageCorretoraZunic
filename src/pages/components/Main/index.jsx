@@ -8,7 +8,7 @@ export default function Main() {
     >
       <div className="text-center flex flex-col items-center justify-center gap-12 px-8 pt-44 lg:pt-64 xl:pt-80 bg-black bg-opacity-50 h-screen">
         <h1 className="text-5xl text-white sm:text-7xl xl:w-1/2 font-bold">
-          Proteja quem você ama de imprevistos e realize seus sonhos!
+          Foque no que realmente importa!
         </h1>
         <Link
           activeClass="active"

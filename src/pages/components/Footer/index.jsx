@@ -6,7 +6,6 @@ export default function Footer(){
         <p className="font-bold"> ZUNIC CORRETORA DE SEGUROS</p>
         <p>SP (11) 2386 4080  |  RJ (21) 2524 7788</p>
       </div>
-      <input type="text" placeholder="textando cor do input" className="placeholder-red-500 border border-black px-4 py-2 rounded" />
     </div>
   )
 }

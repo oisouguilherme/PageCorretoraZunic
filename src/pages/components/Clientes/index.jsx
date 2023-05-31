@@ -10,33 +10,24 @@ export default function Clientes() {
         <div className="w-24 h-2 bg-vermelho"></div>
         </div>
       <div className="flex gap-8 justify-center flex-wrap">
-        <div className="md:w-96">
-          <Image src={imagemTeste} alt="Teste"/>
-          <div className="p-2 space-y-1">
+          <div className="p-4 space-y-1 md:w-96 w-full bg-zinc-50 flex flex-col justify-center shadow-xl">
             <p className="text-2xl">
-            &quot;Queria dar os parabéns a toda equipe Trader Brasil .. DEZ !&quot;
+            &quot;Estou muito satisfeito com o atendimento. Três anos com a mesma qualidade de atendimento.&quot;
             </p>
-            <p className="text-xl italic font-thin">-Carlos Arteman</p>
+            <p className="text-xl italic font-thin">-Luiz Claudio</p>
           </div>
-        </div>
-        <div className="md:w-96">
-          <Image src={imagemTeste} alt="Teste" />
-          <div className="p-2 space-y-1">
+          <div className="p-4 space-y-1 md:w-96 w-full bg-zinc-50 flex flex-col justify-center shadow-xl">
             <p className="text-2xl">
-            &quot;Queria dar os parabéns a toda equipe Trader Brasil .. DEZ !&quot;
+            &quot;Profissionalismo, qualidade e valor&quot;
             </p>
-            <p className="text-xl italic font-thin">-Carlos Arteman</p>
+            <p className="text-xl italic font-thin">-Warley Fernandes</p>
           </div>
-        </div>
-        <div className="md:w-96">
-          <Image src={imagemTeste} alt="Teste" />
-          <div className="p-2 space-y-1">
+          <div className="p-4 space-y-1 md:w-96 w-full bg-zinc-50 flex flex-col justify-center shadow-xl">
             <p className="text-2xl">
-            &quot;Já era tempo de alguém colocar a sabedoria do Mercado mundial no melhor LIVRO de análise gráfica / técnica em português, e meu amigo Flávio Lemos o fez muito bem!&quot;
+            &quot;Espetáculo o atendimento. Show de bola Aline.&quot;
             </p>
-            <p className="text-xl italic font-thin">-Carlos Arteman</p>
+            <p className="text-xl italic font-thin">-Luiz Mario</p>
           </div>
-        </div>
       </div>
     </div>
   );
