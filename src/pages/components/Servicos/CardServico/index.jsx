@@ -1,11 +1,10 @@
 import Image from "next/image";
-import imagemTeste from '../../../../images/imagemteste.avif'
 import Link from "next/link";
 
-export default function CardServico({title,paragrafo}){
+export default function CardServico({title,paragrafo, images}){
   return(
     <div className="bg-slate-50 w-96 mb-16">
-      <Image src={imagemTeste} alt=""/>
+      <Image src={images} alt="Tipos de serviços prestados"/>
 
       <div className="space-y-4 p-8">
         <h3 className="text-2xl font-bold text-cinza">{title}</h3>

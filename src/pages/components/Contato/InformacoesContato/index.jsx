@@ -1,4 +1,4 @@
-export default function InformacoesContato() {
+export default function InformacoesContato({title,telefone1, telefone2, rua, email}) {
   return (
     <div className="w-96">
       <iframe
@@ -11,15 +11,16 @@ export default function InformacoesContato() {
       ></iframe>
       <div className="p-4">
         <div className="text-3xl font-bold text-cinza mb-4">
-          <h2>Informações</h2>
+          <h2>{title}</h2>
           <div className="w-24 h-2 bg-vermelho"></div>
         </div>
         <p className="text-xl font-bold">Telefone:</p>
-        <p className="text-lg">(11) 2386-4080</p>
+        <p className="text-lg">{telefone1}</p>
+        <p className="text-lg">{telefone2}</p>
         <p className="text-xl font-bold">Endereço:</p>
-        <p className="text-lg">Rua Joaquim Floriano 466/ SL 702</p>
+        <p className="text-lg">{rua}</p>
         <p className="text-xl font-bold">E-mail:</p>
-        <p className="text-lg">seguros@traderbrasil.com</p>
+        <p className="text-lg">{email}</p>
 
         <a
           href="#"

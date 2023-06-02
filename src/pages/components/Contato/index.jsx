@@ -11,8 +11,20 @@ export default function Contato(){
         </div>
       </div>
       <div className="flex items-center justify-center gap-24 flex-wrap">
-        <InformacoesContato/>
-        <InformacoesContato/>
+        <InformacoesContato 
+          title={"Buritis - MG"}
+          telefone1={"(38) 99260-9781"}
+          telefone2={"-"}
+          rua={"Rua Rio Grande do Sul Nº 81 - Centro"}
+          email={"teste@gmail.com"}
+        />
+        <InformacoesContato 
+          title={"Curvelo - MG"}
+          telefone1={"(38) 99808-7277"}
+          telefone2={"(38) 99921-4750"}
+          rua={"Rua Benjamin Constant Nº 164 - Centro"}
+          email={"teste@gmail.com"}
+        />
       </div>
     </div>
   );
