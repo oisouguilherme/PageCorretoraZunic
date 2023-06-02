@@ -4,7 +4,7 @@ export default function Footer(){
       <p>A marca Zunic Corretora de Seguros é licenciada á BRASIL Corretagem de Seguros <br />CNPJ: 33.106.361/0001-76  </p>
       <div>
         <p className="font-bold"> ZUNIC CORRETORA DE SEGUROS</p>
-        <p>SP (11) 2386 4080  |  RJ (21) 2524 7788</p>
+        <p>MG (38) 99260-9781  |  MG (38) 99808-7277</p>
       </div>
     </div>
   )

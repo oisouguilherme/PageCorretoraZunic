@@ -5,7 +5,7 @@ export default function ButtonCima(){
     <div className="fixed bottom-6 right-6 bg-slate-50 rounded-full p-1 cursor-pointer">
       <Link
       activeClass="active"
-      to="Home"
+      to="Nav"
       spy={true}
       smooth={true}
       offset={50}

@@ -1,5 +1,3 @@
-import Image from "next/image";
-import imagemTeste from "../../../images/imagemteste.avif";
 import Title from "../Utils/Title";
 
 export default function Clientes() {

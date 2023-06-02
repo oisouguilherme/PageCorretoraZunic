@@ -16,7 +16,7 @@ export default function Header (){
   return (
     <section
       id="Nav"
-      className="w-full flex justify-between items-center z-50 bg-gray-200 py-8 lg:px-24 sm:px-12 px-2"
+      className="w-full flex justify-between items-center z-50 bg-gray-200 py-4 lg:px-24 sm:px-12 px-2"
     >
       <div className="cursor-pointer w-52 md:w-72 xl:w-80">
         <Link href="/">
@@ -36,10 +36,10 @@ export default function Header (){
           }`}
         >
           <ul className="p-4 space-y-4">
-            <li className="cursor-pointer hover:text-vermelho duration-300">
+            <li className="cursor-pointer font-bold hover:text-vermelho duration-300">
               <Link href="/">Home</Link>
             </li>
-            <li className="cursor-pointer hover:text-vermelho duration-300">
+            <li className="cursor-pointer font-bold hover:text-vermelho duration-300">
               <LinkScroll
                 activeClass="active"
                 to="Servicos"
@@ -52,7 +52,7 @@ export default function Header (){
                 Serviços
               </LinkScroll>
             </li>
-            <li className="cursor-pointer hover:text-vermelho duration-300">
+            <li className="cursor-pointer font-bold hover:text-vermelho duration-300">
               <LinkScroll
                 activeClass="active"
                 to="QuemSomos"
@@ -65,7 +65,7 @@ export default function Header (){
                 Quem Somos
               </LinkScroll>
             </li>
-            <li className="cursor-pointer hover:text-vermelho duration-300">
+            <li className="cursor-pointer font-bold hover:text-vermelho duration-300">
               <LinkScroll
                 activeClass="active"
                 to="Seguradoras"
@@ -78,7 +78,7 @@ export default function Header (){
                 Seguradoras
               </LinkScroll>
             </li>
-            <li className="cursor-pointer hover:text-vermelho duration-300">
+            <li className="cursor-pointer font-bold hover:text-vermelho duration-300">
               <LinkScroll
                 activeClass="active"
                 to="Contatos"

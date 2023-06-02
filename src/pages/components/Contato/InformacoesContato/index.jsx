@@ -1,14 +1,15 @@
-export default function InformacoesContato({title,telefone1, telefone2, rua, email}) {
+export default function InformacoesContato({title,telefone1, telefone2, rua, email, endereço,linkzap}) {
   return (
     <div className="w-96">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d804.4040245338871!2d-40.26526921639359!3d-20.19986437748968!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb81ff8f965b951%3A0x59471c5710963b3f!2sPizzaria%20Papa%20Tudo!5e0!3m2!1spt-BR!2sbr!4v1684256453216!5m2!1spt-BR!2sbr"
+        src={endereço}
         width="100%"
         height="350"
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
+      
       <div className="p-4">
         <div className="text-3xl font-bold text-cinza mb-4">
           <h2>{title}</h2>
@@ -23,8 +24,9 @@ export default function InformacoesContato({title,telefone1, telefone2, rua, ema
         <p className="text-lg">{email}</p>
 
         <a
-          href="#"
-          className="flex items-center justify-center bg-green-500 py-3 rounded-xl text-white font-bold text-xl gap-3 mt-8"
+          href={linkzap}
+          target="_blank"
+          className="flex items-center justify-center bg-green-500 hover:bg-green-600 duration-300 py-3 rounded-xl text-white font-bold text-xl gap-3 mt-8"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
