@@ -14,7 +14,7 @@ export default function DetalhesServico({style, title, paragrafo, image}){
           {paragrafo}
         </p>
         
-        <a className="bg-vermelho hover:bg-red-600 px-8 py-4 rounded-md font-bold text-white" href="#">ENTRE EM CONTATO</a>
+        <a className="bg-vermelho hover:bg-red-600 px-8 py-4 rounded-md font-bold text-white" target="_blank" href="https://wa.me/5538992609781">ENTRE EM CONTATO</a>
 
       </div>
       <div>

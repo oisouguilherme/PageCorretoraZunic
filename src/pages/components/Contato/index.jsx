@@ -17,7 +17,7 @@ export default function Contato(){
           telefone1={"(38) 99260-9781"}
           telefone2={"-"}
           rua={"Rua Rio Grande do Sul Nº 81 - Centro"}
-          email={"teste@gmail.com"}
+          email={"zunic.corretora@gmail.com"}
           linkzap={"https://wa.me/5538992609781"}
         />
         <InformacoesContato 
@@ -26,7 +26,7 @@ export default function Contato(){
           telefone1={"(38) 99808-7277"}
           telefone2={"(38) 99921-4750"}
           rua={"Rua Benjamin Constant Nº 164 - Centro"}
-          email={"teste@gmail.com"}
+          email={"zunic.corretora@gmail.com"}
           linkzap={"https://wa.me/5538998087277"}
         />
       </div>

@@ -14,7 +14,7 @@ export default function Servicos(){
           <div className="w-24 h-2 bg-vermelho"></div>
         </div>
       </div>
-      <div className="flex gap-10 justify-center flex-wrap lg:px-24">
+      <div className="flex gap-10 justify-center mx-auto flex-wrap lg:px-24">
         <CardServico
           images={seguroFamilia}
           title={"Seguro Familiar"}

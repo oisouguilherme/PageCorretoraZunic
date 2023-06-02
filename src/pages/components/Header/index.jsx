@@ -18,7 +18,7 @@ export default function Header (){
       id="Nav"
       className="w-full flex justify-between items-center z-50 bg-gray-200 py-4 lg:px-24 sm:px-12 px-2"
     >
-      <div className="cursor-pointer w-52 md:w-72 xl:w-80">
+      <div className="cursor-pointer w-52 md:w-72">
         <Link href="/">
           <Image src={logo} alt="Logo Zunic Corretora de seguros" />
         </Link>
