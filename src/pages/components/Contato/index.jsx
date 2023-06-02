@@ -3,7 +3,7 @@ import InformacoesContato from "./InformacoesContato";
 
 export default function Contato(){
   return (
-    <div className="pb-16">
+    <section id="Contatos" className="pb-16">
       <div className="flex flex-col items-center py-16 gap-2">
         <div className="space-y-3">
           <Title title={"CONTATO"} />
@@ -30,6 +30,6 @@ export default function Contato(){
           linkzap={"https://wa.me/5538998087277"}
         />
       </div>
-    </div>
+    </section>
   );
 }
