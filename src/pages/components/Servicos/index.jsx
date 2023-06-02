@@ -6,6 +6,7 @@ import seguroEmpresarial from '../../../images/seguros/seguroEmpresa.jpg'
 import seguroAuto from '../../../images/seguros/seguroAuto.jpg'
 
 export default function Servicos(){
+
   return (
     <section id="Servicos" className="bg-white md:px-8">
       <div className="flex flex-col items-center py-16 gap-2">

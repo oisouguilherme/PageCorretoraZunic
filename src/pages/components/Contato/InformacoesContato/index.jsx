@@ -26,7 +26,7 @@ export default function InformacoesContato({title,telefone1, telefone2, rua, ema
         <a
           href={linkzap}
           target="_blank"
-          className="flex items-center justify-center bg-green-500 hover:bg-green-600 duration-300 py-3 rounded-xl text-white font-bold text-xl gap-3 mt-8"
+          className="flex items-center justify-center bg-green-500 hover:bg-green-600 duration-300 py-3 rounded-xl text-white font-bold text-xl gap-3 mt-8 animate-bounce"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

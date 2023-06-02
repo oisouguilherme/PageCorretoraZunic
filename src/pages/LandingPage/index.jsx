@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import ButtonCima from "../components/ButtonCima";
 import Clientes from "../components/Clientes";
 import Contato from "../components/Contato";
@@ -9,7 +10,13 @@ import QuemSomos from "../components/QuemSomos";
 import Seguradoras from "../components/Seguradoras";
 import Servicos from "../components/Servicos";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export default function LandingPage(){
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return(
     <div>
       <Header/>

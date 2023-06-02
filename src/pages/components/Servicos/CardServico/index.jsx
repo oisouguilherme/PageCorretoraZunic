@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CardServico({title,paragrafo, images}){
   return(
-    <div className="bg-slate-50 w-[500px] mb-12 mx-auto">
+    <div  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100" className="bg-slate-50 w-[500px] mb-12 mx-auto">
       <Image src={images} alt="Tipos de serviços prestados"/>
 
       <div className="space-y-4 p-8">
