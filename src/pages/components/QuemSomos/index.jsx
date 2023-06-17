@@ -14,24 +14,18 @@ export default function QuemSomos() {
           <div className="w-24 h-2 bg-vermelho"></div>
         </div>
         <p className="text-xl font-thin">
-          Uma promoção na carreira de Adailton, meu marido nos levou para
-          Buritis/MG, perto de Brasília, em 2017. Naquela época eu estava
-          concluindo a Susep. E então percebi que em Buritis não tinha Corretora
-          de seguros os seguros eram vendidos pelos bancos ou por corretores das
-          cidades vizinhas. E foi aí que nasceu a Zunic, no dia 26/06/2017,
-          inspirada na Zurich Seguradora, numa pesquisa no google veio Zunic e
-          foi paixão à primeira vista. Não conhecíamos ninguém naquele lugar,
-          mas aos poucos fomos nos familiarizando e conquistando o público e
-          hoje já são quase 6 anos de história. 
+          Nós nos espelhamos na Zurich Seguradora, então numa pesquisa no google
+          veio o nome Zunic, e foi paixão à primeira vista. O nome evoca
+          integridade, otimismo e confiança, grandes valores presentes em nós.
         </p>
 
         <p className="text-xl font-thin">
-          No meio da pandemia, 2020
-          abrimos a nossa filial em Curvelo. O que poucas pessoas sabem é o que
-          nossa equipe fez. Diante daquele desafio, muitos disseram que não
-          havia o que fazer. Que restava esperar tudo passar e foi o que muitos
-          fizeram e até desistiram e fecharam as portas. Mas nós não nos
-          amedrontamos. Fomos a luta. E já somos duas unidades.
+          A <strong className="font-bold">NOSSA MISSÃO</strong> é inspirar você que vive no “piloto automático” a
+          deixar sua marca de amor na vida das pessoas por meio do seguro. <br />
+          O <strong className="font-bold">NOSSO PROPÓSITO</strong>  é te ajudar a focar no que realmente importa, com:
+          amor, segurança, transparência, inovação e união das famílias. <br />
+          A  <strong className="font-bold">NOSSA VISÃO</strong> é ser referência em soluções de seguros nacionalmente, por meio
+          de um crescimento contínuo e sustentável.
         </p>
       </div>
       <Image

@@ -5,13 +5,21 @@ export default function Main() {
   
   return (
     <section id="Home" className="body bg-no-repeat bg-cover bg-center ">
-      <div className="text-center flex flex-col items-center justify-center gap-12 px-8 pt-44 lg:pt-64 xl:pt-80 bg-black bg-opacity-50 h-screen">
+      <div className="text-center flex flex-col items-center justify-center gap-12 px-8 pt-44 lg:pt-64 xl:pt-80 bg-black bg-opacity-50 h-[1000px]">
         <h1 className="text-5xl text-white sm:text-7xl xl:w-1/2 font-bold">
           <Typewriter
             onInit={(typewriter) => {
               typewriter
-                .typeString("Foque no que realmente importa!")
-                .start();
+              .pauseFor(1500)
+              .typeString('Deixe a sua marca de amor na vida das pessoas que você ama.')
+              .pauseFor(500)
+              .deleteChars(60)
+              .typeString('Foque no que realmente importa.')
+              .pauseFor(500)
+              .deleteChars(40)
+              .typeString('O que realmente importa para você?')
+              .pauseFor(1000)
+              .start();
             }}
           />
         </h1>

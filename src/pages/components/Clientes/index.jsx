@@ -3,8 +3,8 @@ import Title from "../Utils/Title";
 export default function Clientes() {
   return (
     <div className="bg-white px-8 py-16 space-y-10 flex flex-col items-center">
-      <div className="space-y-3 flex flex-col items-start">
-        <Title title={"CLIENTES"} />
+      <div className="space-y-3 flex flex-col items-center md:px-24">
+        <Title title={"Depoimentos de quem já focou no que realmente importa com a gente."} />
         <div className="w-24 h-2 bg-vermelho"></div>
         </div>
       <div className="flex gap-8 justify-center flex-wrap">
