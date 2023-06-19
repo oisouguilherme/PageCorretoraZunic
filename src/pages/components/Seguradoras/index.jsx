@@ -30,71 +30,71 @@ export default function Seguradoras() {
       </div>
       <div className="flex justify-center items-center gap-8 flex-wrap">
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo1} width={200}/>
+          <Image src={logo1} alt="empresas parceiras" width={200}/>
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo2} width={200} />
+          <Image src={logo2} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo3} width={200} />
+          <Image src={logo3} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo4} width={200} />
+          <Image src={logo4} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo5} width={200} />
+          <Image src={logo5} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo6} width={200} />
+          <Image src={logo6} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo7} width={200} />
+          <Image src={logo7} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo8} width={200} />
+          <Image src={logo8} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo9} width={200} />
+          <Image src={logo9} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo10} width={200} />
+          <Image src={logo10} alt="empresas parceiras" width={200} />
         </div>
 
       <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo11} width={200} />
+          <Image src={logo11} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo12} width={200} />
+          <Image src={logo12} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo13} width={200} />
+          <Image src={logo13} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo14} width={200} />
+          <Image src={logo14} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo15} width={200} />
+          <Image src={logo15} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo16} width={200} />
+          <Image src={logo16} alt="empresas parceiras" width={200} />
         </div>
 
         <div className="w-72 flex items-center justify-center h-44">
-          <Image src={logo17} width={200} />
+          <Image src={logo17} alt="empresas parceiras" width={200} />
         </div>
       </div>
     </section>
