@@ -19,12 +19,12 @@ export default function QuemSomos() {
           integridade, otimismo e confiança, grandes valores presentes em nós.
         </p>
 
-        <p className="text-xl font-thin">
+        <div className="text-xl font-thin">
           <p className="flex items-end gap-3"><Image src={Icon} /> Um símbolo de confiança.</p>
           Duas mãos que vão além de oferecer um
           atendimento 360º aos nossos clientes e parceiros: a de baixo sustenta
           e dá segurança, a de cima PROTEGE do inesperado.
-        </p>
+        </div>
 
         <p className="text-xl font-thin">
           A <strong className="font-bold">NOSSA MISSÃO</strong> é inspirar você

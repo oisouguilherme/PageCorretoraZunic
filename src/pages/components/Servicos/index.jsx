@@ -18,11 +18,7 @@ export default function Servicos() {
         </div>
       </div>
       <div className="flex gap-10 justify-center mx-auto flex-wrap lg:px-24">
-        <CardServico
-          images={seguroConsorcio}
-          title={"Consórcio e Seguro Familiar"}
-          paragrafo={`O consórcio é uma modalidade de crédito baseada na união de pessoas, físicas ou jurídicas, que se reúnem para formar poupança em grupo, destinada à aquisição de um bem. A família é o nosso bem mais precioso que Deus pode nos dar. Aqui na Zunic nós te ajudamos a planejar para que esse bem esteja sempre sob cuidados.`}
-        />
+        
         <CardServico
           images={seguroSaude}
           title={"Plano de saúde"}
@@ -42,6 +38,11 @@ export default function Servicos() {
           images={seguroEmpresarial}
           title={"Seguro empresarial"}
           paragrafo={`O seguro empresarial garante a proteção na medida certa para pequenas, médias e grandes empresas que atuam nos setores de comércio, indústria ou serviço.`}
+        />
+        <CardServico
+          images={seguroConsorcio}
+          title={"Seguro Familiar, Consórcio"}
+          paragrafo={`A família é o nosso bem mais precioso que Deus pode nos dar. Aqui na Zunic nós te ajudamos a planejar para que esse bem esteja sempre sob cuidados. O consórcio é uma modalidade de crédito baseada na união de pessoas, físicas ou jurídicas, que se reúnem para formar poupança em grupo. `}
         />
         <CardServico
           images={seguroAuto}

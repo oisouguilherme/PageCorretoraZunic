@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 export default function Main() {
   
   return (
-    <section id="Home" className="body bg-no-repeat bg-cover bg-center ">
+    <section id="Home" className="body bg-no-repeat bg-cover bg-center">
       <div className="text-center flex flex-col items-center justify-center gap-16 px-8 pt-44 lg:pt-64 xl:pt-80 bg-black bg-opacity-50 h-[1000px]">
         <h1 className="text-5xl text-white sm:text-7xl xl:w-1/2 font-bold">
           <Typewriter
