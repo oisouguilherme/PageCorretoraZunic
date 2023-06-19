@@ -27,8 +27,9 @@ export default function Main() {
         </h1>
         <div className="flex flex-col items-center">
         <a
-          href="#"
-          className="bg-green-600 hover:bg-green-700 animate-bounce duration-300 px-12 py-3 rounded-full font-bold text-white text-xl flex gap-2 items-center"
+          href="https://wa.me/5538992609781"
+          target="_blank"
+          className="border-2 border-vermelho hover:bg-vermelho animate-bounce duration-300 px-10 py-3 rounded-full font-bold text-white text-xl flex gap-2 items-center"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

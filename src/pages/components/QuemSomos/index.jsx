@@ -1,7 +1,7 @@
 import Image from "next/image";
 import imagemTeste from "../../../images/QuemSomos.jpg";
 import Title from "../Utils/Title";
-
+import Icon from "../../../images/icon.png";
 export default function QuemSomos() {
   return (
     <section
@@ -20,16 +20,22 @@ export default function QuemSomos() {
         </p>
 
         <p className="text-xl font-thin">
-          Ícone: Um símbolo de confiança. Duas mãos que vão além de oferecer um atendimento 360º aos nossos clientes e parceiros: a de baixo sustenta e dá segurança, a de cima PROTEGE do inesperado.
+          <p className="flex items-end gap-3"><Image src={Icon} /> Um símbolo de confiança.</p>
+          Duas mãos que vão além de oferecer um
+          atendimento 360º aos nossos clientes e parceiros: a de baixo sustenta
+          e dá segurança, a de cima PROTEGE do inesperado.
         </p>
 
         <p className="text-xl font-thin">
-          A <strong className="font-bold">NOSSA MISSÃO</strong> é inspirar você que vive no “piloto automático” a
-          deixar sua marca de amor na vida das pessoas por meio do seguro. <br />
-          O <strong className="font-bold">NOSSO PROPÓSITO</strong>  é te ajudar a focar no que realmente importa, com:
-          amor, segurança, transparência, inovação e união das famílias. <br />
-          A  <strong className="font-bold">NOSSA VISÃO</strong> é ser referência em soluções de seguros nacionalmente, por meio
-          de um crescimento contínuo e sustentável.
+          A <strong className="font-bold">NOSSA MISSÃO</strong> é inspirar você
+          que vive no “piloto automático” a deixar sua marca de amor na vida das
+          pessoas por meio do seguro. <br />O{" "}
+          <strong className="font-bold">NOSSO PROPÓSITO</strong> é te ajudar a
+          focar no que realmente importa, com: amor, segurança, transparência,
+          inovação e união das famílias. <br />A{" "}
+          <strong className="font-bold">NOSSA VISÃO</strong> é ser referência em
+          soluções de seguros nacionalmente, por meio de um crescimento contínuo
+          e sustentável.
         </p>
       </div>
       <Image
