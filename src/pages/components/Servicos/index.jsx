@@ -20,8 +20,8 @@ export default function Servicos() {
       <div className="flex gap-10 justify-center mx-auto flex-wrap lg:px-24">
         <CardServico
           images={seguroConsorcio}
-          title={"Consórcio"}
-          paragrafo={`O consórcio é uma modalidade de crédito baseada na união de pessoas, físicas ou jurídicas, que se reúnem para formar poupança em grupo, destinada à aquisição de um bem.`}
+          title={"Consórcio e Seguro Familiar"}
+          paragrafo={`O consórcio é uma modalidade de crédito baseada na união de pessoas, físicas ou jurídicas, que se reúnem para formar poupança em grupo, destinada à aquisição de um bem. A família é o nosso bem mais precioso que Deus pode nos dar. Aqui na Zunic nós te ajudamos a planejar para que esse bem esteja sempre sob cuidados.`}
         />
         <CardServico
           images={seguroSaude}
@@ -32,11 +32,6 @@ export default function Servicos() {
           images={seguroPrevidencia}
           title={"Previdência Privada"}
           paragrafo={`Escolhendo planos que atendem às suas necessidades, a previdência privada não está ligada ao Instituto Nacional do Seguro Social (INSS). A partir de contribuições únicas ou mensais, ela te ajudará a acumular recursos financeiros para complementar a sua aposentadoria.`}
-        />
-        <CardServico
-          images={seguroFamilia}
-          title={"Seguro Familiar"}
-          paragrafo={`A família é o nosso bem mais precioso que Deus pode nos dar, é o alicerce da vida, da esperança e do amor. Aqui na Zunic nós te ajudamos a planejar para que esse bem esteja sempre sob cuidados.`}
         />
         <CardServico
           images={seguroProfissional}

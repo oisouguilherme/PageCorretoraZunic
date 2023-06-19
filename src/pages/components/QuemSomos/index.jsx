@@ -8,7 +8,7 @@ export default function QuemSomos() {
       id="QuemSomos"
       className="bg-slate-50 grid md:grid-cols-2 overflow-hidden"
     >
-      <div className="py-16 px-4 md:px-0 space-y-8 md:w-96 mx-auto">
+      <div className="py-16 px-4 md:px-0 space-y-4 md:w-96 mx-auto">
         <div className="space-y-3 flex flex-col items-start">
           <Title title={"QUEM SOMOS"} />
           <div className="w-24 h-2 bg-vermelho"></div>
@@ -17,6 +17,10 @@ export default function QuemSomos() {
           Nós nos espelhamos na Zurich Seguradora, então numa pesquisa no google
           veio o nome Zunic, e foi paixão à primeira vista. O nome evoca
           integridade, otimismo e confiança, grandes valores presentes em nós.
+        </p>
+
+        <p className="text-xl font-thin">
+          Ícone: Um símbolo de confiança. Duas mãos que vão além de oferecer um atendimento 360º aos nossos clientes e parceiros: a de baixo sustenta e dá segurança, a de cima PROTEGE do inesperado.
         </p>
 
         <p className="text-xl font-thin">
