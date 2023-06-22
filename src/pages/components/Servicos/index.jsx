@@ -25,9 +25,9 @@ export default function Servicos() {
           paragrafo={`Pensando na melhor forma de proteger você e a sua família, o seguro de vida garante a sua proteção financeira em casos de invalidez e doenças graves, e ainda, ampara seus dependentes em caso de falecimento.ações.`}
         />
         <CardServico
-          images={seguroPrevidencia}
-          title={"Previdência Privada"}
-          paragrafo={`Escolhendo planos que atendem às suas necessidades, a previdência privada não está ligada ao Instituto Nacional do Seguro Social (INSS). A partir de contribuições únicas ou mensais, ela te ajudará a acumular recursos financeiros para complementar a sua aposentadoria.`}
+          images={seguroConsorcio}
+          title={"Consórcio"}
+          paragrafo={`O consórcio é uma modalidade de crédito baseada na união de pessoas, físicas ou jurídicas, que se reúnem para formar poupança em grupo. `}
         />
         <CardServico
           images={seguroProfissional}
@@ -40,9 +40,9 @@ export default function Servicos() {
           paragrafo={`O seguro empresarial garante a proteção na medida certa para pequenas, médias e grandes empresas que atuam nos setores de comércio, indústria ou serviço.`}
         />
         <CardServico
-          images={seguroConsorcio}
-          title={"Seguro Familiar, Consórcio"}
-          paragrafo={`A família é o nosso bem mais precioso que Deus pode nos dar. Aqui na Zunic nós te ajudamos a planejar para que esse bem esteja sempre sob cuidados. O consórcio é uma modalidade de crédito baseada na união de pessoas, físicas ou jurídicas, que se reúnem para formar poupança em grupo. `}
+          images={seguroFamilia}
+          title={"Proteção Familiar"}
+          paragrafo={`A família é o nosso bem mais precioso que Deus pode nos dar, é o alicerce da vida, da esperança e do amor. Aqui na Zunic nós te ajudamos a planejar para que esse bem esteja sempre sob cuidados.`}
         />
         <CardServico
           images={seguroAuto}

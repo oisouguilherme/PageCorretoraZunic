@@ -24,7 +24,7 @@ export default function Contato() {
           <a
             href="https://wa.me/5538992609781"
             target="_blank"
-            className="flex items-center justify-center bg-green-500 hover:bg-green-600 hover:scale-105 duration-300 py-3 rounded-xl text-white font-bold text-xl gap-3 mt-8"
+            className="flex items-center justify-center border-2 border-vermelho hover:bg-vermelho hover:text-white hover:scale-105 duration-300 py-3 rounded-xl font-bold text-xl gap-3 mt-8"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ export default function Contato() {
           <a
             href="https://www.instagram.com/zunic.seguros/"
             target="_blank"
-            className="flex items-center justify-center duration-300 py-3 rounded-xl font-bold text-white hover:scale-105 text-xl gap-3 mt-8 instagram"
+            className="flex items-center justify-center duration-300 py-3 rounded-xl font-bold hover:text-white hover:scale-105 text-xl gap-3 mt-8 border-2 border-vermelho hover:bg-vermelho"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
