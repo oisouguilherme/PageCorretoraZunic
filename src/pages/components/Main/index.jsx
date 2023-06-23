@@ -24,7 +24,7 @@ export default function Main() {
         </h1>
         <div className="flex flex-col items-center">
           <a
-            href="https://wa.me/5538992609781"
+            href="https://wa.me/5538998087277"
             target="_blank"
             className="border-2 border-vermelho hover:bg-vermelho duration-300 px-10 py-3 rounded-full font-bold text-white text-xl flex gap-2 items-center"
           >

@@ -22,7 +22,7 @@ export default function Contato() {
           email={"zunic.corretora@gmail.com"}
         >
           <a
-            href="https://wa.me/5538992609781"
+            href="https://wa.me/5538998087277"
             target="_blank"
             className="flex items-center justify-center border-2 border-vermelho hover:bg-vermelho hover:text-white hover:scale-105 duration-300 py-3 rounded-xl font-bold text-xl gap-3 mt-8"
           >
