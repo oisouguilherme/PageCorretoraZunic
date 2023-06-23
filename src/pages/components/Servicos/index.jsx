@@ -22,7 +22,7 @@ export default function Servicos() {
         <CardServico
           images={seguroSaude}
           title={"Plano de saúde"}
-          paragrafo={`Pensando na melhor forma de proteger você e a sua família, o seguro de vida garante a sua proteção financeira em casos de invalidez e doenças graves, e ainda, ampara seus dependentes em caso de falecimento.ações.`}
+          paragrafo={`Pensando na melhor forma de proteger você e a sua família, o seguro de vida garante a sua proteção financeira em casos de invalidez e doenças graves, e ainda, ampara seus dependentes em caso de falecimento.`}
         />
         <CardServico
           images={seguroConsorcio}
