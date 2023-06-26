@@ -1,3 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/zunics73/public_html/
