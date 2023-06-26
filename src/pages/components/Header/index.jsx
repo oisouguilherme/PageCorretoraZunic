@@ -19,7 +19,7 @@ export default function Header (){
       className="w-full flex justify-between items-center z-50 bg-gray-200 py-4 lg:px-24 sm:px-12 px-2"
     >
       <div className="cursor-pointer w-52 md:w-72">
-        <Link href="/">
+        <Link href="https://zunicseguros.com.br/">
           <Image src={logo} alt="Logo Zunic Corretora de seguros" />
         </Link>
       </div>
@@ -37,7 +37,7 @@ export default function Header (){
         >
           <ul className="p-4 space-y-4">
             <li className="cursor-pointer font-bold hover:text-vermelho duration-300">
-              <Link href="/">Home</Link>
+              <Link href="https://zunicseguros.com.br/">Home</Link>
             </li>
             <li className="cursor-pointer font-bold hover:text-vermelho duration-300">
               <LinkScroll
@@ -97,7 +97,7 @@ export default function Header (){
       <div className="hidden lg:block">
         <ul className="flex space-x-8 text-center items-center text-black font-bold text-xl xl:text-2xl">
           <li className="cursor-pointer hover:text-vermelho duration-300">
-            <Link href="/">Home</Link>
+            <Link href="https://zunicseguros.com.br/">Home</Link>
           </li>
           <li className="cursor-pointer hover:text-vermelho duration-300">
             <LinkScroll
