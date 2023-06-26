@@ -1,4 +1,3 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/zunics73/public_html
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/zunics73/public_html/
